@@ -1,0 +1,65 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 100vh;
+    font-size: 18px;
+}
+
+.container {
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.descricao-do-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 15px 0;
+}
+
+span {
+    display: block;
+}
+
+p {
+    padding-top: 15px;
+}
+
+strong, h1 {
+    color: black;
+}
+
+.texto-com-cor {
+    color: hsl(227, 10%, 46%);
+}
+
+.nome-do-perfil {
+    font-size: 20px;
+}
+
+.informacoes-do-perfil ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    padding: 15px;
+}
+
+.informacoes-do-perfil {
+    width: 100%;
+}
